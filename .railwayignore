@@ -1,0 +1,14 @@
+node_modules/
+.git/
+target/
+build/
+.idea/
+.vscode/
+*.jar
+*.class
+*.war
+.mvn/
+mvnw
+mvnw.cmd
+starter-temp/
+starter.zip

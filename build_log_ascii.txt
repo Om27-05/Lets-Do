@@ -1,0 +1,118 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.letsdo:lets-do >-------------------------
+[INFO] Building Lets Do 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ lets-do ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ lets-do ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 21 source files with javac [debug release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/ChatbotService.java:[3,22] cannot find symbol
+  symbol:   class TaskResponse
+  location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[4,22] cannot find symbol
+  symbol:   class TaskResponse
+  location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[35,12] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[57,17] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[66,12] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[74,12] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[97,12] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[121,17] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[148,17] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[4,22] cannot find symbol
+  symbol:   class TaskResponse
+  location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[45,32] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.controller.TaskController
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[110,32] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.controller.TaskController
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[120,32] cannot find symbol
+  symbol:   class TaskResponse
+  location: class com.letsdo.controller.TaskController
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.386 s
+[INFO] Finished at: 2026-04-07T23:11:38+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project lets-do: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/ChatbotService.java:[3,22] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[4,22] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[35,12] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[57,17] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[66,12] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[74,12] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[97,12] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[121,17] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/service/TaskService.java:[148,17] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.service.TaskService
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[4,22] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: package com.letsdo.dto
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[45,32] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.controller.TaskController
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[110,32] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.controller.TaskController
+[ERROR] /C:/Users/ASUS/OneDrive/Documents/Java Project/lets-do/src/main/java/com/letsdo/controller/TaskController.java:[120,32] cannot find symbol
+[ERROR]   symbol:   class TaskResponse
+[ERROR]   location: class com.letsdo.controller.TaskController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
